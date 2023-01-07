@@ -1,0 +1,20 @@
+{
+  "name": "nowy-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "Adam",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "css-minimizer-webpack-plugin": "^4.2.2",
+    "html-minimizer-webpack-plugin": "^4.3.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
